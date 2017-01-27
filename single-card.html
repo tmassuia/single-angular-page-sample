@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.cyan-lime.min.css" />     
+
+  <link rel="stylesheet" href="assets/app.css">
+
+<style>
+.md-whiteframe {
+   background: #fff;
+}
+</style>
+
+</head>
+<html>
+<body style="margin-bottom: 20px" md-theme="default" md-colors="{'background': 'background-100'}" ng-app="BlankApp">
+
+
+<center>
+<div style="padding: 20px">
+    <div class="padded md-whiteframe" md-whiteframe="{{height}}" flex="96" flex-gt-sm="80" layout="column" layout-align="center center"
+      ng-init="height = 3" ng-mouseenter="height = 6" ng-mouseleave="height = 3">
+      <md-card-title  style="padding: 20px" >
+          <md-card-title-text >
+            <div style="margin: 10px" ><img style="width: 230px; padding-bottom: 10px" src="assets/svg/logo.svg"/> </div>
+            <div><span style="margin-top: 40px" class="md-title">Sucessfully Login.</span></div>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+        <span class="md-subhead">THANKS.</span>
+          <p class="md-subhead">
+            You can close this window.
+          </p>
+        </md-card-content>
+        <md-card-actions layout="column" layout-align="space-between center">
+        <md-button style="margin-bottom: 20px" href="http://www.google.com.br" class="md-raised md-primary">Explore Web</md-button>
+   
+        </md-card-actions>
+        </div>
+        </div>
+        </div>
+   
+
+
+  </div>
+
+
+
+
+
+      </div>
+    </div>
+
+    </section>
+<script type='text/javascript' src='https://adserver.conektta.com.br/www/delivery/spcjs.php?id=5'></script>        
+     </div>
+    </center>
+
+
+    </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script type="text/javascript">        
+    angular.module('BlankApp', ['ngMaterial']);
+  </script>
+  
+  
+  <!-- ads, fb, twitter, github, analytics -->
+  <script>
+    (function(){
+      var fusoionad_script = document.createElement("script");
+      fusoionad_script.type = "text/javascript";
+      fusoionad_script.async = true;
+      fusoionad_script.id = "_fusionads_js";
+      fusoionad_script.src = "http://cdn.fusionads.net/fusion.js?zoneid=1332&serve=C6SDP2Y&placement=callmenickcom";
+      document.getElementById("footer__ad--container").appendChild(fusoionad_script);
+    })();
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=222982931164932&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+    (function(){
+      var gitFork = document.createElement("iframe");
+      gitFork.setAttribute( "src", "http://ghbtns.com/github-btn.html?user=callmenick&repo=Memory&type=fork&count=true" );
+      gitFork.setAttribute( "allowtransparency", "true" );
+      gitFork.setAttribute( "frameborder", "0" );
+      gitFork.setAttribute( "scrolling", "0" );
+      gitFork.style.width = "95px";
+      gitFork.style.height = "20px";
+      document.getElementById("footer__social--icons-github").appendChild(gitFork);
+
+      var gitWatch = document.createElement("iframe");
+      gitWatch.setAttribute( "src", "http://ghbtns.com/github-btn.html?user=callmenick&repo=Memory&type=watch&count=true" );
+      gitWatch.setAttribute( "allowtransparency", "true" );
+      gitWatch.setAttribute( "frameborder", "0" );
+      gitWatch.setAttribute( "scrolling", "0" );
+      gitWatch.style.width = "110px";
+      gitWatch.style.height = "20px";
+      document.getElementById("footer__social--icons-github").appendChild(gitWatch);
+    })();
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34160351-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</body>
+</html>
